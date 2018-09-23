@@ -4,11 +4,13 @@ public class Main {
     {
         String str1;
         String str2;
-        Integer x;
+        String str3;
 
-        str1 = "亞州大學";
-        str2 = "張三";
-        x    = 5;
-	    System.out.printf("%s就讀的校名是:%s\n年齡:%s", str2, str1, x);
+        str1 = "107024999";
+        str2 = "資訊傳播學系";
+        str3 = "王小華";
+
+	    System.out.printf("請輸入學號:%s\n 請輸入系別:%s\n 請輸入姓名:%s\n ",str1,str2,str3);
+	    System.out.printf("%s的學號為%s,目前就讀的學校為%s。",str3,str1,str2);
     }
 }
